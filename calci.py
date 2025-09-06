@@ -8,6 +8,8 @@ def calc(first, method, second):
         answer = first * second
     elif method == '/':
         answer = first / second
+    elif method == '^':
+        answer = first ** second
     else:
         answer = 'Command not found'
     print(answer)
