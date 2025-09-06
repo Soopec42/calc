@@ -11,13 +11,13 @@ def calc(first, method, second):
     elif method == '^':
         answer = first ** second
     else:
-        answer = 'Command not found'
+        answer = 'This command not found'
     print(answer)
 
 
 isOpen = True
 while(isOpen):
-    print('Write: ')
+    print('Write here: ')
     list = input().split()
     first = list[0]
     method = list[1]
