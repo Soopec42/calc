@@ -21,4 +21,8 @@ while(isOpen):
     method = list[1]
     second = list[2]
     print('answer: ' + calc(float(first), str(method), float(second)))
-    
+    retu = input("another one?")
+    if retu == 'yes' or 'Yes':
+        continue
+    else:
+        isOpen = False
